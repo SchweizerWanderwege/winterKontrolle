@@ -66,8 +66,7 @@ maxResolution:14.00223307613098,
     <img src="styles/legend/WinterWeg_2_0.png" /> SSR leicht<br />\
     <img src="styles/legend/WinterWeg_2_1.png" /> SSR mittel<br />\
     <img src="styles/legend/WinterWeg_2_2.png" /> SSR schwer<br />\
-    <img src="styles/legend/WinterWeg_2_3.png" /> Winterwanderwege<br />\
-    <img src="styles/legend/WinterWeg_2_4.png" /> <br />' });
+    <img src="styles/legend/WinterWeg_2_3.png" /> Winterwanderwege<br />' });
 var format_Winterwanderwege_3 = new ol.format.GeoJSON();
 var features_Winterwanderwege_3 = format_Winterwanderwege_3.readFeatures(json_Winterwanderwege_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
