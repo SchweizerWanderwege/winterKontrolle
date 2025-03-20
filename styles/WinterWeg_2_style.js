@@ -6,7 +6,7 @@ function categories_WinterWeg_2(feature, value, size, resolution, labelText,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'SSR leicht':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,255,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.5}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,255,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +14,7 @@ function categories_WinterWeg_2(feature, value, size, resolution, labelText,
                     break;
 case 'SSR mittel':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,1,5,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,1,5,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case 'SSR mittel':
                     break;
 case 'SSR schwer':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -30,7 +30,7 @@ case 'SSR schwer':
                     break;
 case 'Winterwanderwege':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(116,129,206,0.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4}),
+        stroke: new ol.style.Stroke({color: 'rgba(116,129,206,0.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -38,7 +38,7 @@ case 'Winterwanderwege':
                     break;
 default:
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(43,232,163,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4}),
+        stroke: new ol.style.Stroke({color: 'rgba(43,232,163,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
