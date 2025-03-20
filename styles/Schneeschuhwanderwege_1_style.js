@@ -19,7 +19,7 @@ function categories_Schneeschuhwanderwege_1(feature, value, size, resolution, la
                     break;
 case '0':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(170,10,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 8.0}),
+        stroke: new ol.style.Stroke({color: 'rgba(170,10,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 6.0}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
