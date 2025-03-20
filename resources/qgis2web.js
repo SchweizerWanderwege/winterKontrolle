@@ -499,7 +499,7 @@ attributionList.innerHTML = `
 	<a href="https://github.com/qgis2web/qgis2web">qgis2web</a> &middot;
 	<a href="https://openlayers.org/">OpenLayers</a> &middot;
  	<a href="https://www.schweizer-wanderwege.ch/de/wir-packen-an/winterwander-basisnetz">SWW-Winter</a> &middot;
-	<a href="https://qgis.org/">QGIS</a> &middot	
+	<a href="https://qgis.org/">QGIS</a> &middot;	
 `;
 var bottomAttributionUl = bottomAttribution.element.querySelector('ul');
 if (bottomAttributionUl) {
