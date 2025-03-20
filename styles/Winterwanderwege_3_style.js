@@ -19,7 +19,7 @@ function categories_Winterwanderwege_3(feature, value, size, resolution, labelTe
                     break;
 case '0':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,100,220,0.7607843137254902)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 8}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,100,220,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 6}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
