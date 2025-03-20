@@ -6,12 +6,12 @@ function categories_Schneeschuhwanderwege_1(feature, value, size, resolution, la
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case '1':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(200,60,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 6.08}),
+        stroke: new ol.style.Stroke({color: 'rgba(200,60,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 6.00}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     }),new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(140,10,80,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 0.608}),
+        stroke: new ol.style.Stroke({color: 'rgba(140,10,80,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 8.0}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -19,7 +19,7 @@ function categories_Schneeschuhwanderwege_1(feature, value, size, resolution, la
                     break;
 case '0':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(170,10,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3.268}),
+        stroke: new ol.style.Stroke({color: 'rgba(170,10,120,0.6)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 8.0}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
