@@ -566,3 +566,26 @@ document.addEventListener('DOMContentLoaded', function() {
     if (attributionControl) {
         bottomRightContainerDiv.appendChild(attributionControl);
     }
+
+	// Create a div element for the overlay
+	var lastWorkedOnDiv = document.createElement('div');
+	lastWorkedOnDiv.id = 'last-worked-on';
+	lastWorkedOnDiv.style.position = 'absolute';
+	lastWorkedOnDiv.style.bottom = '10px';
+	lastWorkedOnDiv.style.right = '10px';
+	lastWorkedOnDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+	lastWorkedOnDiv.style.padding = '5px';
+	lastWorkedOnDiv.style.border = '1px solid #ccc';
+	lastWorkedOnDiv.style.borderRadius = '3px';
+	
+	// Set the content of the overlay
+	var lastWorkedOnDate = new Date('2025-04-02').toLocaleDateString(); // Replace with the actual date
+	lastWorkedOnDiv.innerHTML = 'Datenstand: ' + lastWorkedOnDate;
+	
+	// Create a new control for the overlay
+	var lastWorkedOnControl = new ol.control.Control({
+	    element: lastWorkedOnDiv
+	});
+	
+	// Add the control to the map
+	map.addControl(lastWorkedOnControl);
