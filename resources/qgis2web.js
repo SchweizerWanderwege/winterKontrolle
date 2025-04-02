@@ -571,7 +571,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var lastWorkedOnDiv = document.createElement('div');
 	lastWorkedOnDiv.id = 'last-worked-on';
 	lastWorkedOnDiv.style.position = 'absolute';
-	lastWorkedOnDiv.style.bottom = '10px';
+	lastWorkedOnDiv.style.bottom = '20px';
 	lastWorkedOnDiv.style.right = '10px';
 	lastWorkedOnDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
 	lastWorkedOnDiv.style.padding = '5px';
