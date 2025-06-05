@@ -462,10 +462,11 @@ var searchLayer1 = new SearchLayer({
     layer: lyr_Winterwanderwege_3,
     colName: 'NameR',
     zoom: 10,
-    collapsed: true,
+    collapsed: false,
     map: map
 });
 map.addControl(searchLayer1);
+const searchControls = document.getElementsByClassName('search-layer');
 document.getElementsByClassName('search-layer')[0].getElementsByTagName('button')[0].className += ' fa fa-binoculars';
 document.getElementsByClassName('search-layer-input-search')[0].placeholder = 'Suche Route ...';
 
@@ -474,7 +475,7 @@ var searchLayer2 = new SearchLayer({
     layer: lyr_GemeindenKopie_5,
     colName: 'NAME',
     zoom: 10,
-    collapsed: true,
+    collapsed: false,
     map: map
 });
 map.addControl(searchLayer2);
