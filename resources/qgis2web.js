@@ -263,7 +263,7 @@ function onPointerMove(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: 'ff000020'
+                            color: '#☻ff000020'
                         })
                     })
                 }
@@ -458,7 +458,7 @@ document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
 
 //layer search
 
-var searchLayer = new SearchLayer({
+var searchLayer1 = new SearchLayer({
     layer: lyr_Winterwanderwege_3,
     colName: 'NameR',
     zoom: 10,
@@ -467,8 +467,21 @@ var searchLayer = new SearchLayer({
 });
 map.addControl(searchLayer);
 document.getElementsByClassName('search-layer')[0].getElementsByTagName('button')[0].className += ' fa fa-binoculars';
-document.getElementsByClassName('search-layer-input-search')[0].placeholder = 'Search feature ...';
-    
+document.getElementsByClassName('search-layer-input-search')[0].placeholder = 'Suche Route ...';
+
+// NEW search for Gemeinden
+var searchLayer2 = new SearchLayer({
+    layer: lyr_GemeindenKopie_5,
+    colName: 'NAME',
+    zoom: 10,
+    collapsed: true,
+    map: map
+});
+map.addControl(searchLayer2);
+
+// Optionally style the second search widget
+document.getElementsByClassName('search-layer')[1].getElementsByTagName('button')[0].className += ' fa fa-search';
+document.getElementsByClassName('search-layer-input-search')[1].placeholder = 'Suche Gemeinde ...';
 
 //scalebar
 
