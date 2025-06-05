@@ -254,7 +254,7 @@ function onPointerMove(evt) {
 
                     highlightStyle = new ol.style.Style({
                         stroke: new ol.style.Stroke({
-                            color: '#ffff00',
+                            color: '#ffff0050',
                             lineDash: null,
                             width: featureWidth
                         })
@@ -263,7 +263,7 @@ function onPointerMove(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: '#ffff00'
+                            color: 'ff000020'
                         })
                     })
                 }
