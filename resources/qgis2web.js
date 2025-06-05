@@ -480,7 +480,7 @@ var searchLayer2 = new SearchLayer({
 map.addControl(searchLayer2);
 
 // Optionally style the second search widget
-document.getElementsByClassName('search-layer')[1].getElementsByTagName('button')[0].className += ' fa fa-search';
+document.getElementsByClassName('search-layer')[1].getElementsByTagName('button')[0].className += ' fa fa-binoculars';
 document.getElementsByClassName('search-layer-input-search')[1].placeholder = 'Suche Gemeinde ...';
 
 //scalebar
