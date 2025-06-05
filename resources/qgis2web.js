@@ -465,7 +465,7 @@ var searchLayer1 = new SearchLayer({
     collapsed: true,
     map: map
 });
-map.addControl(searchLayer);
+map.addControl(searchLayer1);
 document.getElementsByClassName('search-layer')[0].getElementsByTagName('button')[0].className += ' fa fa-binoculars';
 document.getElementsByClassName('search-layer-input-search')[0].placeholder = 'Suche Route ...';
 
