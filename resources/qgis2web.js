@@ -263,7 +263,7 @@ function onPointerMove(evt) {
                 } else {
                     highlightStyle = new ol.style.Style({
                         fill: new ol.style.Fill({
-                            color: '#☻ff000020'
+                            color: '#ff000020'
                         })
                     })
                 }
