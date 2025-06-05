@@ -254,7 +254,7 @@ function onPointerMove(evt) {
 
                     highlightStyle = new ol.style.Style({
                         stroke: new ol.style.Stroke({
-                            color: '#ffff0050',
+                            color: '#ff000080',
                             lineDash: null,
                             width: featureWidth
                         })
